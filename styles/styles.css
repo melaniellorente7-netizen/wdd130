@@ -5,14 +5,17 @@
 }
 
 header,
-.grid footer {
+.grid,
+nav,
+footer {
     max-width: 840px;
     margin: 0 auto;
 }
 
 .grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    align-items: start;
 }
 
 body {
@@ -45,7 +48,7 @@ nav a {
 h1 {
     color: var(--primary-color);
     padding: .5rem;
-    border-bottom: #000;
+    border-bottom: 1px solid #000;
 }
 
 h2 {
@@ -69,7 +72,6 @@ p {
 }
 
 main {
-    max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
 }
