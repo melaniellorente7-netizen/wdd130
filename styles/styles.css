@@ -121,3 +121,14 @@ footer {
 .indent {
     padding-left: 2rem;
 }
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.two {
+    background-color: #ace;
+    height: 100px;
+}
