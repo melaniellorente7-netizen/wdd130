@@ -6,6 +6,12 @@
     --heading-font: "Playfair Display", serif;
     --body-font: "Raleway", sans-serif;
     --max-width: 840px;
+    --white: #ffffff;
+    --black: #000000;
+    --border-color: #333333;
+    --input-border: #cccccc;
+    --transparent: transparent;
+
 }
 
 * {
@@ -44,7 +50,7 @@ h3 {
 
 h1,
 h2 {
-    color: #fff;
+    color: var(--white);
     background-color: var(--accent1-color);
     padding: 8px;
     width: 100%;
@@ -148,19 +154,18 @@ figure {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    /* Mantiene proporción */
     border-radius: 8px;
     margin: 0 auto;
 }
 
 .employees {
-    border: 1px solid #333;
+    border: var(--border-color);
     margin-top: 40px;
     padding: 20px;
 }
 
 .employees h2 {
-    background-color: transparent;
+    background-color: var(--transparent);
     color: inherit;
 }
 
@@ -202,12 +207,12 @@ textarea,
 button {
     padding: 10px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: var(--input-border);
 }
 
 button {
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--white);
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -226,7 +231,7 @@ footer {
     align-items: center;
     padding: 20px 0;
     background-color: var(--banner-color);
-    border-top: 1px solid #333;
+    border-top: var(--border-color);
 }
 
 .socialmedia {
