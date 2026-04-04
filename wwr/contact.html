@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content=" Contact Us section of the Website project about a white water rafting company">
+    <meta name="author" content="Melanie Llorente">
+    <title>Contact Us White Waters Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="grid">
+        <img src="images/z-crossedoars.jpeg" alt="Z-crossedoars Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-info">
+            <h3>White Water Rafting Company</h3>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>Phone: +1 999 999 9999</p>
+            <p>Email: <a href="mailto:">info@whitewater.com</a></p>
+        </div>
+
+
+        <div class="contact-grid">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d28704.91373062983!2d-75.82699226913688!3d40.86677418981942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c5b2053f4c26ab%3A0x59bebc6dc172141b!2sWhitewater%20Rafting%20Adventures%2C%20101%20Adventure%20Trail%20Rd%2C%20Nesquehoning%2C%20PA%2018240%2C%20Estados%20Unidos!3m2!1d40.8695539!2d-75.79685289999999!5e0!3m2!1ses!2suy!4v1775266007480!5m2!1ses!2suy"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form>
+                <div class="form-item-inline">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Placeholder">
+                </div>
+                <div class="form-item-inline">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="Placeholder">
+                </div>
+
+                <div class="form-item-horizontal">
+                    <label class="main-label">Message Purpose</label>
+
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="generalInquiry" name="purpose" value="1">
+                            <label for="generalInquiry">General Inquiry</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="reservationQuestion" name="purpose" value="2">
+                            <label for="reservationQuestion">Reservation Question</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="websiteSuggestion" name="purpose" value="3">
+                            <label for="websiteSuggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-item-checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+        </div>
+
+
+        <section class="employees">
+            <h2>We Are Here to Serve You!</h2>
+            <div class="employee-grid">
+                <div class="two">
+                    <figure>
+                        <img src="images/employee1.jpg" alt="Employee 1." />
+                        <figcaption>Employee Profile</figcaption>
+                    </figure>
+                </div>
+                <div class="two">
+                    <figure>
+                        <img src="images/employee2.jpg" alt="Employee 2." />
+                        <figcaption>Employee Profile</figcaption>
+                    </figure>
+                </div>
+                <div class="two">
+                    <figure>
+                        <img src="images/employee3.jpg" alt="Employee 3." />
+                        <figcaption>Employee Profile</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️2026 White Waters Rafting | Melanie Llorente</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="Linkedin Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
